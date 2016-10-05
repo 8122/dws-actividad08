@@ -12,10 +12,10 @@ package entidad;
 public class AlquilerBean {
     
     private String nombre;
-    private int dias;
-    private int edad;
+    private String dias;
+    private String edad;
     private String formaPago;
-    private String especificaciones;
+    private String extras;
 
     /**
      * @return the nombre
@@ -34,28 +34,28 @@ public class AlquilerBean {
     /**
      * @return the dias
      */
-    public int getDias() {
+    public String getDias() {
         return dias;
     }
 
     /**
      * @param dias the dias to set
      */
-    public void setDias(int dias) {
+    public void setDias(String dias) {
         this.dias = dias;
     }
 
     /**
      * @return the edad
      */
-    public int getEdad() {
+    public String getEdad() {
         return edad;
     }
 
     /**
      * @param edad the edad to set
      */
-    public void setEdad(int edad) {
+    public void setEdad(String edad) {
         this.edad = edad;
     }
 
@@ -74,18 +74,17 @@ public class AlquilerBean {
     }
 
     /**
-     * @return the especificaciones
+     * @return the extras
      */
-    public String getEspecificaciones() {
-        return especificaciones;
+    public String getExtras() {
+        return extras;
     }
 
     /**
-     * @param especificaciones the especificaciones to set
+     * @param extras the extras to set
      */
-    public void setEspecificaciones(String especificaciones) {
-        this.especificaciones = especificaciones;
+    public void setExtras(String extras) {
+        this.extras = extras;
     }
-    
-    
+
 }
